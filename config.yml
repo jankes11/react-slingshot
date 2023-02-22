@@ -14,7 +14,8 @@ jobs:
       - persist_to_workspace:
           root: ~/
           paths:
-            - output.txt    
+            - output.txt   
+            - newfile.txt 
   print_output_file:
     docker:
       - image: circleci/node:13.8.0
@@ -64,3 +65,4 @@ workflows:
           requires:
             - test
 
+C:\Users\Lukasz\react-slingshot\config.yml
