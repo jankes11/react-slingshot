@@ -65,4 +65,3 @@ workflows:
           requires:
             - test
 
-C:\Users\Lukasz\react-slingshot\config.yml
